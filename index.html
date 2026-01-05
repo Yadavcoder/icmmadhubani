@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ICM Madhubani – Premium Ethnic Wear</title>
+
+  <!-- SEO -->
+  <meta name="description" content="ICM Madhubani – Premium Ethnic Wear for Men, Women & Kids. Order directly on WhatsApp.">
+  <meta name="keywords" content="Ethnic Wear Madhubani, Wedding Wear, Kurta Saree Shop">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">ICM MADHUBANI</div>
+  <nav>
+    <a href="#mens">Mens</a>
+    <a href="#ladies">Ladies</a>
+    <a href="#kids">Kids</a>
+    <a href="#cart">Cart</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Premium Ethnic Wear Store</h1>
+  <p>For Men, Women & Kids</p>
+  <a class="btn" href="#mens">Shop Now</a>
+</section>
+
+<!-- PRODUCTS -->
+<section id="mens" class="section">
+  <h2>Mens Wear</h2>
+  <div class="products">
+
+    <div class="product">
+      <h3>Men Wedding Kurta Set</h3>
+      <p>₹2999</p>
+      <button onclick="addToCart('Men Wedding Kurta Set',2999)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Silk Kurta Pajama</h3>
+      <p>₹2499</p>
+      <button onclick="addToCart('Silk Kurta Pajama',2499)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="ladies" class="section">
+  <h2>Ladies Wear</h2>
+  <div class="products">
+
+    <div class="product">
+      <h3>Banarasi Silk Saree</h3>
+      <p>₹4999</p>
+      <button onclick="addToCart('Banarasi Silk Saree',4999)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Festive Anarkali Suit</h3>
+      <p>₹3299</p>
+      <button onclick="addToCart('Festive Anarkali Suit',3299)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<section id="kids" class="section">
+  <h2>Kids Wear</h2>
+  <div class="products">
+
+    <div class="product">
+      <h3>Boys Ethnic Kurta Set</h3>
+      <p>₹1599</p>
+      <button onclick="addToCart('Boys Ethnic Kurta Set',1599)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <h3>Girls Festive Lehenga</h3>
+      <p>₹2199</p>
+      <button onclick="addToCart('Girls Festive Lehenga',2199)">Add to Cart</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- CART -->
+<section id="cart" class="section cart">
+  <h2>Your Cart</h2>
+  <ul id="cartItems"></ul>
+  <button class="btn" onclick="checkoutWhatsApp()">Checkout on WhatsApp</button>
+</section>
+
+<footer>
+  <p>© 2026 ICM MADHUBANI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
